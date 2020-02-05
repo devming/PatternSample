@@ -1,0 +1,6 @@
+framework module Pods_AlphaProjectAuth {
+  umbrella header "Pods-AlphaProjectAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}

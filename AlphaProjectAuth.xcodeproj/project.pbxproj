@@ -3,27 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230929F4657D5F93B4C0E760 /* Pods_AlphaProjectAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF9F6DEAE47E5BE300957E3 /* Pods_AlphaProjectAuth.framework */; };
 		CA4BDF6623E9054900EBABFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDF6523E9054900EBABFB /* AppDelegate.swift */; };
-		CA4BDF6823E9054900EBABFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDF6723E9054900EBABFB /* SceneDelegate.swift */; };
 		CA4BDF6A23E9054900EBABFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDF6923E9054900EBABFB /* ViewController.swift */; };
 		CA4BDF6D23E9054900EBABFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4BDF6B23E9054900EBABFB /* Main.storyboard */; };
 		CA4BDF6F23E9054B00EBABFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4BDF6E23E9054B00EBABFB /* Assets.xcassets */; };
 		CA4BDF7223E9054B00EBABFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4BDF7023E9054B00EBABFB /* LaunchScreen.storyboard */; };
+		CA4BDF9D23E950AA00EBABFB /* AuthenticationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDF9C23E950AA00EBABFB /* AuthenticationDelegate.swift */; };
+		CA4BDFA023EA458200EBABFB /* PatternAuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDF9F23EA458200EBABFB /* PatternAuthenticationView.swift */; };
+		CA4BDFC723EA8F8800EBABFB /* CCGestureLockAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDFC123EA8F8800EBABFB /* CCGestureLockAppearance.swift */; };
+		CA4BDFC823EA8F8800EBABFB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CA4BDFC223EA8F8800EBABFB /* LICENSE */; };
+		CA4BDFC923EA8F8800EBABFB /* CCGestureLockSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDFC323EA8F8800EBABFB /* CCGestureLockSensor.swift */; };
+		CA4BDFCA23EA8F8800EBABFB /* VersionBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDFC423EA8F8800EBABFB /* VersionBridge.swift */; };
+		CA4BDFCB23EA8F8800EBABFB /* CCGestureLockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDFC523EA8F8800EBABFB /* CCGestureLockCollectionViewCell.swift */; };
+		CA4BDFCC23EA8F8800EBABFB /* CCGestureLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDFC623EA8F8800EBABFB /* CCGestureLock.swift */; };
+		CA4BDFCF23EAAA1600EBABFB /* PatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4BDFCE23EAAA1600EBABFB /* PatternViewController.swift */; };
+		CA7D1E2C23EAAF7D00E32C81 /* PatternLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E2323EAAF7D00E32C81 /* PatternLockView.swift */; };
+		CA7D1E2D23EAAF7D00E32C81 /* LockConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E2423EAAF7D00E32C81 /* LockConfig.swift */; };
+		CA7D1E2E23EAAF7D00E32C81 /* ConnectLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E2523EAAF7D00E32C81 /* ConnectLineView.swift */; };
+		CA7D1E2F23EAAF7D00E32C81 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E2623EAAF7D00E32C81 /* GridView.swift */; };
+		CA7D1E3023EAAF7D00E32C81 /* ImageLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E2723EAAF7D00E32C81 /* ImageLineView.swift */; };
+		CA7D1E3123EAAF7D00E32C81 /* RotateImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E2823EAAF7D00E32C81 /* RotateImageGridView.swift */; };
+		CA7D1E3223EAAF7D00E32C81 /* ShadowGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E2923EAAF7D00E32C81 /* ShadowGridView.swift */; };
+		CA7D1E3323EAAF7D00E32C81 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E2A23EAAF7D00E32C81 /* ImageGridView.swift */; };
+		CA7D1E3423EAAF7D00E32C81 /* PatternLockPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E2B23EAAF7D00E32C81 /* PatternLockPathView.swift */; };
+		CA7D1E3623EAAFEB00E32C81 /* ZumPatternLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E3523EAAFEB00E32C81 /* ZumPatternLockView.swift */; };
+		CA7D1E3823EAB49600E32C81 /* PatternConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D1E3723EAB49600E32C81 /* PatternConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80FA173E9551D65E467E8556 /* Pods-AlphaProjectAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaProjectAuth.debug.xcconfig"; path = "Target Support Files/Pods-AlphaProjectAuth/Pods-AlphaProjectAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		B738DEFFF7065822CE85A520 /* Pods-AlphaProjectAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaProjectAuth.release.xcconfig"; path = "Target Support Files/Pods-AlphaProjectAuth/Pods-AlphaProjectAuth.release.xcconfig"; sourceTree = "<group>"; };
 		CA4BDF6223E9054900EBABFB /* AlphaProjectAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaProjectAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4BDF6523E9054900EBABFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA4BDF6723E9054900EBABFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA4BDF6923E9054900EBABFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA4BDF6C23E9054900EBABFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA4BDF6E23E9054B00EBABFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA4BDF7123E9054B00EBABFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA4BDF7323E9054B00EBABFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4BDF9C23E950AA00EBABFB /* AuthenticationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationDelegate.swift; sourceTree = "<group>"; };
+		CA4BDF9F23EA458200EBABFB /* PatternAuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternAuthenticationView.swift; sourceTree = "<group>"; };
+		CA4BDFC123EA8F8800EBABFB /* CCGestureLockAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLockAppearance.swift; sourceTree = "<group>"; };
+		CA4BDFC223EA8F8800EBABFB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CA4BDFC323EA8F8800EBABFB /* CCGestureLockSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLockSensor.swift; sourceTree = "<group>"; };
+		CA4BDFC423EA8F8800EBABFB /* VersionBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionBridge.swift; sourceTree = "<group>"; };
+		CA4BDFC523EA8F8800EBABFB /* CCGestureLockCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLockCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA4BDFC623EA8F8800EBABFB /* CCGestureLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLock.swift; sourceTree = "<group>"; };
+		CA4BDFCE23EAAA1600EBABFB /* PatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternViewController.swift; sourceTree = "<group>"; };
+		CA7D1E2323EAAF7D00E32C81 /* PatternLockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternLockView.swift; sourceTree = "<group>"; };
+		CA7D1E2423EAAF7D00E32C81 /* LockConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockConfig.swift; sourceTree = "<group>"; };
+		CA7D1E2523EAAF7D00E32C81 /* ConnectLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectLineView.swift; sourceTree = "<group>"; };
+		CA7D1E2623EAAF7D00E32C81 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		CA7D1E2723EAAF7D00E32C81 /* ImageLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLineView.swift; sourceTree = "<group>"; };
+		CA7D1E2823EAAF7D00E32C81 /* RotateImageGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateImageGridView.swift; sourceTree = "<group>"; };
+		CA7D1E2923EAAF7D00E32C81 /* ShadowGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowGridView.swift; sourceTree = "<group>"; };
+		CA7D1E2A23EAAF7D00E32C81 /* ImageGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		CA7D1E2B23EAAF7D00E32C81 /* PatternLockPathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternLockPathView.swift; sourceTree = "<group>"; };
+		CA7D1E3523EAAFEB00E32C81 /* ZumPatternLockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumPatternLockView.swift; sourceTree = "<group>"; };
+		CA7D1E3723EAB49600E32C81 /* PatternConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternConfig.swift; sourceTree = "<group>"; };
+		CFF9F6DEAE47E5BE300957E3 /* Pods_AlphaProjectAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaProjectAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230929F4657D5F93B4C0E760 /* Pods_AlphaProjectAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1A15536DCD8D04E8B925FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9F6DEAE47E5BE300957E3 /* Pods_AlphaProjectAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38B3FBEC4F0366606B3A0B13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80FA173E9551D65E467E8556 /* Pods-AlphaProjectAuth.debug.xcconfig */,
+				B738DEFFF7065822CE85A520 /* Pods-AlphaProjectAuth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CA4BDF5923E9054900EBABFB = {
 			isa = PBXGroup;
 			children = (
 				CA4BDF6423E9054900EBABFB /* AlphaProjectAuth */,
 				CA4BDF6323E9054900EBABFB /* Products */,
+				38B3FBEC4F0366606B3A0B13 /* Pods */,
+				0A1A15536DCD8D04E8B925FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +118,9 @@
 		CA4BDF6423E9054900EBABFB /* AlphaProjectAuth */ = {
 			isa = PBXGroup;
 			children = (
+				CA4BDF9B23E9504600EBABFB /* Authentication */,
 				CA4BDF6523E9054900EBABFB /* AppDelegate.swift */,
-				CA4BDF6723E9054900EBABFB /* SceneDelegate.swift */,
+				CA4BDFCE23EAAA1600EBABFB /* PatternViewController.swift */,
 				CA4BDF6923E9054900EBABFB /* ViewController.swift */,
 				CA4BDF6B23E9054900EBABFB /* Main.storyboard */,
 				CA4BDF6E23E9054B00EBABFB /* Assets.xcassets */,
@@ -67,6 +130,64 @@
 			path = AlphaProjectAuth;
 			sourceTree = "<group>";
 		};
+		CA4BDF9B23E9504600EBABFB /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CA4BDF9E23EA456B00EBABFB /* Pattern */,
+				CA4BDF9C23E950AA00EBABFB /* AuthenticationDelegate.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CA4BDF9E23EA456B00EBABFB /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D1E2123EAAF7D00E32C81 /* JXPatternLock */,
+				CA4BDFC023EA8F8800EBABFB /* CCGestureLock */,
+				CA7D1E3523EAAFEB00E32C81 /* ZumPatternLockView.swift */,
+				CA7D1E3723EAB49600E32C81 /* PatternConfig.swift */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
+		CA4BDFC023EA8F8800EBABFB /* CCGestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				CA4BDF9F23EA458200EBABFB /* PatternAuthenticationView.swift */,
+				CA4BDFC123EA8F8800EBABFB /* CCGestureLockAppearance.swift */,
+				CA4BDFC223EA8F8800EBABFB /* LICENSE */,
+				CA4BDFC323EA8F8800EBABFB /* CCGestureLockSensor.swift */,
+				CA4BDFC423EA8F8800EBABFB /* VersionBridge.swift */,
+				CA4BDFC523EA8F8800EBABFB /* CCGestureLockCollectionViewCell.swift */,
+				CA4BDFC623EA8F8800EBABFB /* CCGestureLock.swift */,
+			);
+			path = CCGestureLock;
+			sourceTree = "<group>";
+		};
+		CA7D1E2123EAAF7D00E32C81 /* JXPatternLock */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D1E2223EAAF7D00E32C81 /* Core */,
+				CA7D1E2723EAAF7D00E32C81 /* ImageLineView.swift */,
+				CA7D1E2823EAAF7D00E32C81 /* RotateImageGridView.swift */,
+				CA7D1E2923EAAF7D00E32C81 /* ShadowGridView.swift */,
+				CA7D1E2A23EAAF7D00E32C81 /* ImageGridView.swift */,
+				CA7D1E2B23EAAF7D00E32C81 /* PatternLockPathView.swift */,
+			);
+			path = JXPatternLock;
+			sourceTree = "<group>";
+		};
+		CA7D1E2223EAAF7D00E32C81 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D1E2323EAAF7D00E32C81 /* PatternLockView.swift */,
+				CA7D1E2423EAAF7D00E32C81 /* LockConfig.swift */,
+				CA7D1E2523EAAF7D00E32C81 /* ConnectLineView.swift */,
+				CA7D1E2623EAAF7D00E32C81 /* GridView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA4BDF7623E9054B00EBABFB /* Build configuration list for PBXNativeTarget "AlphaProjectAuth" */;
 			buildPhases = (
+				0886E02E8D4106CEAB3BCF60 /* [CP] Check Pods Manifest.lock */,
 				CA4BDF5E23E9054900EBABFB /* Sources */,
 				CA4BDF5F23E9054900EBABFB /* Frameworks */,
 				CA4BDF6023E9054900EBABFB /* Resources */,
+				7401EDCA0E1ABAB85AE4F48B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +250,81 @@
 			files = (
 				CA4BDF7223E9054B00EBABFB /* LaunchScreen.storyboard in Resources */,
 				CA4BDF6F23E9054B00EBABFB /* Assets.xcassets in Resources */,
+				CA4BDFC823EA8F8800EBABFB /* LICENSE in Resources */,
 				CA4BDF6D23E9054900EBABFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0886E02E8D4106CEAB3BCF60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaProjectAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7401EDCA0E1ABAB85AE4F48B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlphaProjectAuth/Pods-AlphaProjectAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlphaProjectAuth/Pods-AlphaProjectAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlphaProjectAuth/Pods-AlphaProjectAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA4BDF5E23E9054900EBABFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4BDFC723EA8F8800EBABFB /* CCGestureLockAppearance.swift in Sources */,
+				CA4BDFCA23EA8F8800EBABFB /* VersionBridge.swift in Sources */,
+				CA7D1E2C23EAAF7D00E32C81 /* PatternLockView.swift in Sources */,
+				CA4BDFA023EA458200EBABFB /* PatternAuthenticationView.swift in Sources */,
+				CA7D1E3223EAAF7D00E32C81 /* ShadowGridView.swift in Sources */,
+				CA7D1E3023EAAF7D00E32C81 /* ImageLineView.swift in Sources */,
+				CA4BDFC923EA8F8800EBABFB /* CCGestureLockSensor.swift in Sources */,
+				CA7D1E3423EAAF7D00E32C81 /* PatternLockPathView.swift in Sources */,
+				CA7D1E2D23EAAF7D00E32C81 /* LockConfig.swift in Sources */,
 				CA4BDF6A23E9054900EBABFB /* ViewController.swift in Sources */,
+				CA7D1E3123EAAF7D00E32C81 /* RotateImageGridView.swift in Sources */,
 				CA4BDF6623E9054900EBABFB /* AppDelegate.swift in Sources */,
-				CA4BDF6823E9054900EBABFB /* SceneDelegate.swift in Sources */,
+				CA7D1E3323EAAF7D00E32C81 /* ImageGridView.swift in Sources */,
+				CA4BDFCC23EA8F8800EBABFB /* CCGestureLock.swift in Sources */,
+				CA7D1E3823EAB49600E32C81 /* PatternConfig.swift in Sources */,
+				CA7D1E2E23EAAF7D00E32C81 /* ConnectLineView.swift in Sources */,
+				CA4BDFCF23EAAA1600EBABFB /* PatternViewController.swift in Sources */,
+				CA7D1E3623EAAFEB00E32C81 /* ZumPatternLockView.swift in Sources */,
+				CA4BDF9D23E950AA00EBABFB /* AuthenticationDelegate.swift in Sources */,
+				CA7D1E2F23EAAF7D00E32C81 /* GridView.swift in Sources */,
+				CA4BDFCB23EA8F8800EBABFB /* CCGestureLockCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +466,7 @@
 		};
 		CA4BDF7723E9054B00EBABFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80FA173E9551D65E467E8556 /* Pods-AlphaProjectAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +485,7 @@
 		};
 		CA4BDF7823E9054B00EBABFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B738DEFFF7065822CE85A520 /* Pods-AlphaProjectAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
